@@ -2,18 +2,14 @@ package com.divyanshu.draw.activity
 
 import android.app.Activity
 import android.content.Intent
-import android.content.res.ColorStateList
 import android.content.res.Resources
 import android.graphics.Bitmap
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.content.res.ResourcesCompat
-import androidx.core.widget.ImageViewCompat
-import android.util.Log
 import android.view.View
 import android.widget.SeekBar
-import com.divyanshu.draw.R
-import com.divyanshu.draw.widget.DrawView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.res.ResourcesCompat
+import com.github.JarmoKukkola.androidDraw.R
 import kotlinx.android.synthetic.main.activity_drawing.*
 import kotlinx.android.synthetic.main.color_palette_view.*
 import java.io.ByteArrayOutputStream
