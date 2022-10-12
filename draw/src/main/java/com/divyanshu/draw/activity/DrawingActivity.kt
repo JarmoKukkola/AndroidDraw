@@ -9,7 +9,7 @@ import android.view.View
 import android.widget.SeekBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
-import com.github.JarmoKukkola.androidDraw.R
+import com.divyanshu.draw.R
 import kotlinx.android.synthetic.main.activity_drawing.*
 import kotlinx.android.synthetic.main.color_palette_view.*
 import java.io.ByteArrayOutputStream
@@ -132,7 +132,7 @@ class DrawingActivity : AppCompatActivity() {
             scaleColorView(image_color_yellow)
         }
         image_color_green.setOnClickListener {
-            val color = ResourcesCompat.getColor(resources, R.color.color_green,null)
+            val color = ResourcesCompat.getColor(resources,R.color.color_green,null)
             draw_view.setColor(color)
             circle_view_opacity.setColor(color)
             circle_view_width.setColor(color)
